@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #232427;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px 0;
+}
+.card{
+   position: relative; 
+   min-width: 320px;
+   height: 440px;
+   box-shadow: inset 5px 5px 5px rgba(0, 0,0,0.2),
+                inset 5px 5px 5px rgba(255, 255, 255, 0.1),
+                5px 5px 15px rgba(0,0,0,0.3),
+                5px 5px 5px rgba(255, 255, 255, 0.1);
+                border-radius: 15px;
+                margin: 30px;
+                
+}
+.box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 30px;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a2b2f;
+    border: 2px solid #1e1f23;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+.box:hover{
+    transform: translateY(-50px) ;
+    box-shadow: 0 70px 100px rgba(51, 49, 49, 0.5);
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+  padding: 20px;
+  text-align: center;
+}
+h2{
+    position: absolute;
+    top: -10px;
+    padding: 0%;
+    margin: 0%;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.05);
+}
+h3{
+    font-size: 1.8rem;
+    color: 1gba(255, 255, 255, 0.5);
+    z-index: 0;
+    transition: 1s;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    transition: 1s;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    list-style: none;
+    text-decoration: none;
+    background: #0004f5;
+    margin-top:15px ;
+    border-radius: 28px;
+    font-weight: 500;
+    color: white;
+}   
